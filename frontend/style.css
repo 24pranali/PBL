@@ -1,0 +1,233 @@
+/* poppins */
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+/* Navbar */
+
+.navbar{
+    max-width: 100%;
+    max-height: 10%;
+    /* background-color: rgb(248, 248, 154); */
+    /* background-color: #D9EDBF; */
+    
+}
+
+.nav-item a{
+    color: black;
+}
+
+.line {
+    border: 0;
+    height: 1px;
+    background-color: black;
+    font-weight: bold;
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+
+.hero{
+    margin-top: 10px;
+    display: flex;
+    height: 25%;
+    /* background-color: yellow; */
+
+}
+.hero-info{
+    max-width: 50%;
+    width: 50%;
+}
+.hero-info h1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.hero-info h2{
+    margin-top: 2px;
+    margin-left: 5px;
+    /* color: rgb(80, 211, 255); */
+}
+.hero-info p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: medium;
+    /* color: rgb(80, 211, 255); */
+}
+
+.benifits{
+    margin-top: 10px;
+    max-width: 100%;
+    max-height: 25%;
+    height: 350px;
+    /* background-color: rgb(0, 191, 255); */
+}
+
+.benifits-head{
+    margin-top: 2px;
+    margin-left: 43%;
+}
+.benifits-info{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.benifit-box{
+    max-width: 25%;
+    width: 311.5px;
+    background-color: #FF9843;
+    height: 228.9px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+
+.benifit-box h3{
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: center;
+    color: white;
+}
+
+.benifit-box img{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+footer{
+    /* background-color: #6895D2; */
+}
+
+.foot{
+    /* margin-top: 3%; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(50, 47, 47);
+    color: white;
+}
+
+.foot h3{
+    margin-top: 3%;
+}
+
+.social-img{
+    display: flex;
+}
+
+.social-img i{
+    width: 10px;
+    height: 10px;
+    margin-top: 2px;
+}
+.social-img p{
+    margin-left: 10px;
+    margin-top: -2px;
+}
+.Imp-Links a{
+    color: white;
+}

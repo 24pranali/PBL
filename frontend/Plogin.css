@@ -1,0 +1,61 @@
+body{
+    /* background-image: url('varun.jpg'); */
+    background-color: rgb(243, 206, 139);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+.form-box {
+    border-radius: 40px;
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 50px 60px 70px;
+    text-align: center;
+}
+.form-box h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: orange;
+    position: relative;
+}
+.head{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.but{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.but img{
+    width: 75px;
+    height: auto;
+}
+
+.but button {
+    margin-top: 15px;
+    flex-basis: 48%;
+    background: rgb(243, 160, 6);
+    color: #fff;
+    height: 40px;
+    border-radius: 40px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
