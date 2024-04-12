@@ -1,0 +1,19 @@
+.hero{
+    margin-top: 10px;
+    display: flex;
+    height: 25%;
+    /* background-color: yellow; */
+
+}
+.hero-img{
+ align-content: center;
+}
+.hero h1{
+    text-align: center;
+}
+.varun{
+    text-align: center;
+}
+.mrun{
+    text-align: center;
+}

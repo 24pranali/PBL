@@ -5,10 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Health Card</title>
     <link rel="stylesheet" href="card.css">
+    <link rel="javascript" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
 <body>
+    <div class="navbar">
+        <ul class="nav nav-pills poppins-medium">
+            <!-- <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Appointment</a>
+            </li> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Medical History</a>
+            </li> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Personal Details</a>
+            </li> -->
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="hospital_list.html">Hospital List</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="create_card.html">Create Card</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Patient_login.html">Patient Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+    </div>
+    <hr class="line">
     <div class="head">
         <h1>Create Your Smart Health Card</h1>
+    </div>
+    <div class="hero-img">
+      <img src="./images/card_img_1.svg" alt="">
+    </div> 
+    <form id="medicalForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required>
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="4" cols="50" required></textarea>
+
+      <label for="bloodType">Blood Type:</label>
+      <input type="text" id="bloodType" name="bloodType" required>
+
+      <label for="bloodType">Phone number:</label>
+      <input type="number" id="phone number" name="phone number" required>
+
+      <label for="allergies">Allergies:</label>
+      <textarea id="allergies" name="allergies" rows="4" cols="50" required></textarea>
+
+      <label for="medications">Medications:</label>
+      <textarea id="medications" name="medications" rows="4" cols="50" required></textarea>
+
+      <div class="submit">
+        <a class="Submit" href="acard.html">Submit</a>
+      </div>
+      
+      
+  </form>
+  <script>   
     
 </body>
 </html>

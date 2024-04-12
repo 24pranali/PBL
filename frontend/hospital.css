@@ -1,9 +1,47 @@
-.head{
-    text-align: center;
-    margin-top: 35px;
-    
-}
-.poppins-thin {
+body {
+    /*  background-image: url('https://as2.ftcdn.net/v2/jpg/02/26/69/31/1000_F_226693159_ZuF48u0n0pHQgEouzPmeSj62ZZbHnABD.jpg'); /* Path to the background image */
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: rgb(16, 0, 0);
+      min-height: 100vh;
+      
+  }
+  img{
+      opacit;
+  }
+
+  .container {
+      margin-top: 10px;    
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(224, 231, 231, 0.585); /* Blue tone background color */
+      border-radius: 10px;
+      
+  }
+
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+  }
+
+  th, td {
+      padding: 20px;
+      text-align: left;
+      border-bottom: 1px solid rgb(255, 255, 255);
+  }
+
+  th {
+      background-color: rgba(255, 255, 255, 0.529);
+  }
+
+  tr:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.05);
+  }
+  .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -120,13 +158,6 @@
     /* background-color: #D9EDBF; */
     
 }
-.hero{
-  margin-top: 10px;
-  display: flex;
-  height: 25%;
-  /* background-color: yellow; */
-
-}
 
 .nav-item a{
     color: black;
@@ -139,41 +170,14 @@
     font-weight: bold;
     margin-top: 10px; /* Adjust margin as needed */
 }
-form {
-  width: 50%;
-  margin: 0 auto;
-  background-color: #fff;
-  padding: 50px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+.hero-img{
+  margin-top: 10px;
+  display: flex;
+  height: 25%;
+  justify-content:center;
+  /* background-color: yellow; */
+
 }
-label {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 14px;
-  color: #333;
-}
-input, textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-sizing: border-box;
-  font-size: 14px;
-}
-input[type="submit"] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 14px;
-}
-input[type="submit"]:hover {
-  background-color: #45a049;
-}
-.submit{
-  background-color: #45a049;
+.container h1{
   text-align: center;
 }
