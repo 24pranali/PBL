@@ -29,9 +29,13 @@
               <a class="nav-link" href="#">Personal Details</a>
             </li> -->
             <li class="nav-item">
+<<<<<<< HEAD:frontend/index.php
                 <a class="nav-link" href="./patient_login.php">Patient Login</a>
                 <li class="nav-item">
                 <a class="nav-link" href="./hospital_list.php">Hospital list</a>
+=======
+                <a class="nav-link" href="hospital_list.html">Hospital List</a>
+>>>>>>> 3fa13939fe3a30b1464f978a8b28041616c44521:frontend/index.html
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../backend/AddPatient.php">Create Card</a>
