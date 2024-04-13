@@ -29,17 +29,19 @@
               <a class="nav-link" href="#">Personal Details</a>
             </li> -->
             <li class="nav-item">
-                <a class="nav-link" href="Hospital_login.html">Hospital List</a>
+                <a class="nav-link" href="./patient_login.php">Patient Login</a>
+                <li class="nav-item">
+                <a class="nav-link" href="./hospital_list.php">Hospital list</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="create_card.html">Create Card</a>
+                <a class="nav-link" href="../backend/AddPatient.php">Create Card</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="Patient_login.html">Patient Login</a>
+                <a class="nav-link" href="./Patient_login.html">Patientusingscan Login</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
-            </li>
+            </li> 
           </ul>
     </div>
     <hr class="line">
@@ -52,7 +54,7 @@
             
         </div>
         <div class="hero-img">
-            <img src="./images/hero_img.svg" alt="">
+            <img src="./hero_img.svg" alt="">
         </div>
     </div>
 
@@ -63,19 +65,19 @@
         </div>
         <div class="benifits-info poppins-medium">
             <div class="benifit-box">
-                <img src="./images/benfit_img_1.svg" alt="">
+                <img src="./benfit_img_1.svg" alt="">
                 <h3>Convenient access to your health information</h3>
             </div>
             <div class="benifit-box">
-                <img src="./images/benfit_img_2.svg" alt="">
+                <img src="./benfit_img_2.svg" alt="">
                 <h3>Secure and private storage of medical records</h3>
             </div>
             <div class="benifit-box">
-                <img src="./images/benfit_img_3.svg" alt="">
+                <img src="./benfit_img_3.svg" alt="">
                 <h3>Easy sharing with healthcare providers</h3>
             </div>
             <div class="benifit-box">
-                <img src="./images/benfit_img_4.svg" alt="">
+                <img src="./benfit_img_4.svg" alt="">
                 <h3>User-friendly interface</h3>
             </div>
            
@@ -136,6 +138,5 @@
             </div>
         </div>
     </footer>
-    
 </body>
 </html>
